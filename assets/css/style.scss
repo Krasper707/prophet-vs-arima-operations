@@ -1,0 +1,39 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Force Academic Styling */
+body {
+  font-family: "Georgia", "Times New Roman", serif; /* The "Paper" Look */
+  font-size: 18px; /* Slightly larger for reading */
+  line-height: 1.6;
+  color: #111; /* Darker text for contrast */
+  text-align: justify; /* Academic papers are usually justified */
+}
+
+/* Style the Headers */
+h1, h2, h3 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Keep headers clean */
+  font-weight: bold;
+  color: #333;
+  margin-top: 40px;
+}
+
+/* Make images look like Figures */
+img {
+  border: 1px solid #ddd;
+  padding: 5px;
+  background-color: #fff;
+  display: block;
+  margin: 20px auto; /* Center align */
+  max-width: 100%;
+}
+
+/* Style the Code Blocks to look professional */
+pre, code {
+  font-family: "Consolas", "Courier New", monospace;
+  background-color: #f6f8fa;
+  font-size: 14px;
+  border-radius: 3px;
+}
