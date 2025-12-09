@@ -1,0 +1,6 @@
+title: "Operational Resilience: Prophet vs. ARIMA"
+description: "A comparative analysis of forecasting models during supply chain data outages."
+theme: jekyll-theme-minimal
+logo: images/main_comparison.png  # Optional: Puts your graph at the top left
+show_downloads: false             # Makes it look less like software, more like a paper
+google_analytics:                 # Leave blank
